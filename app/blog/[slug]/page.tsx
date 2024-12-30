@@ -8,6 +8,7 @@ import Image from "next/image";
 import React from "react";
 
 export const dynamic = "force-dynamic";
+export const revalidate = 30;
 
 const BlogPage = async ({ params }: { params: { slug: string } }) => {
   const query = `*[_type == "blog" && slug.current == "${params.slug}"][0]{
