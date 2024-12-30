@@ -1,6 +1,6 @@
 import Comments from "@/components/comments";
-import { client } from "@/sanity/lib/client";
-import { urlFor } from "@/sanity/lib/image";
+import { client } from "@/lib/client";
+import { urlFor } from "@/lib/image";
 import { Post } from "@/types";
 import { PortableText } from "next-sanity";
 
